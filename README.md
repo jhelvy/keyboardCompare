@@ -5,4 +5,5 @@ A shiny R app that analyzes text to compare the ease of typing that text using Q
 In R, make sure you have the 'shiny' library installed, then simply run these commands:
 
 library(shiny)
+
 runGitHub('keyboardCompare', 'jhelvy')
