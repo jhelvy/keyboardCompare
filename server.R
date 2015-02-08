@@ -1,8 +1,7 @@
 # Load libraries and data
 library(dplyr)
 library(ggplot2)
-library(Unicode)
-source('/data/colors.R')
+source('./data/colors.R')
 map  = read.csv(file='./data/keyboardMap.csv', header=T)
 
 getData = function(text, map) {
