@@ -1,9 +1,9 @@
 # keyboardCompare
-A shiny R app that analyzes text to compare the ease of typing that text using Qwerty, Dvorak, Workman, and Norman keyboard layouts. Input the text to be analyzed below and summary figures will automagically update to show how each keyboard layout compares.
+An R Shiny app that analyzes a text block to compare keystrokes using Qwerty, Dvorak, Workman, and Norman keyboard layouts. Input any text and summary figures will automagically update to compare each keyboard.
 
 # How to run
-In R, make sure you have the 'shiny' library installed, then simply run these commands:
-
+In R, make sure you have the `shiny` library installed, then simply run these commands:
+```
 library(shiny)
-
-runGitHub('keyboardCompare', 'jhelvy')
+runGitHub('jhelvy/keyboardCompare')
+```
